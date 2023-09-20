@@ -8,7 +8,7 @@ export const skills = document.getElementById('skills')
 
 
 export function userInfo(userData){
-    userName.innerText = `Fullt name: ${userData.attrs.firstName} ${userData.attrs.lastName}`
+    userName.innerText = `Full name: ${userData.attrs.firstName} ${userData.attrs.lastName}`
     gitea.innerText = `Login: ${userData.login}`
     country.innerText = `Country: ${userData.attrs.country}`
     city.innerText = `City: ${userData.attrs.addressCity}`
